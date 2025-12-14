@@ -9,17 +9,15 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Marcellus&family=Noto+Sans+JP:wght@300;400;500;600&family=Noto+Serif+JP:wght@400;500;600&family=Shippori+Mincho:wght@400;500;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-  <a class="skip" href="#main">本文へスキップ</a>
-
   <header class="header" id="header">
     <div class="header_inner">
-      <a class="header_logo" href="/" aria-label="トップへ">
+      <a class="header_logo" href="#" aria-label="トップへ">
         <img src="img/logo.png" alt="" width="120" height="40" loading="eager" />
       </a>
 
@@ -29,10 +27,10 @@
 
       <nav class="header_nav" id="nav" aria-label="グローバルナビゲーション">
         <ul class="header_nav_list">
-          <li><a href="#concept">CONCEPT</a></li>
-          <li><a href="#selfcare">SELF CARE</a></li>
-          <li><a href="#lineup">PRODUCT</a></li>
-          <li><a href="#moon">MOON</a></li>
+          <li><a href="#concept">地球環境保全プロジェクト</a></li>
+          <li><a href="#concept">COMPANY</a></li>
+          <li><a href="#selfcare">CONTACT</a></li>
+          <li><a href="#moon">Privacy Policy</a></li>
         </ul>
       </nav>
     </div>
@@ -48,7 +46,7 @@
           <div class="mv_inner">
             <h1 class="mv_h1">
               <picture>
-                <!-- 後でSP用PNGを用意する場合はここに <source> を追加 -->
+                <source media="(max-width: 767px)" srcset="img/FV_overlay_SP.png">
                 <img class="mv_h1_img" src="img/FV_overlay_PC.png" alt="あなたの心と髪が求めている贅沢な休息時間｜新月・満月シャンプー" width="980" height="980" loading="eager" decoding="async" />
               </picture>
             </h1>
@@ -67,9 +65,9 @@
               <p class="concept_label" aria-hidden="true">CONCEPT</p>
             </div>
             <div class="concept_body">
-              <h2 class="concept_title">無理はしない。<br>毎日のバスタイムを活用する</h2>
+              <h2 class="concept_title">無理はしない<br>毎日のバスタイムを活用する</h2>
               <p class="concept_text">心と体のためにマッサージへ行く、ヨガスタジオへ通う、森林浴をしに行く、温泉へ行く…というのもいいけれど、忙しいとつい後回しにしてしまいがち。</p>
-              <p class="concept_text">一方で、ほとんどの人が毎日お風呂に入ってシャンプーをするはず。その“洗う”という行為を丁寧な癒しの時間に変えられたら。日々の習慣であるバスタイムを活用できたら。そんな思いから、ストレスケアに寄り添うシャンプーを開発しました。</p>
+              <p class="concept_text">一方で、ほとんどの人が毎日お風呂に入ってシャンプーをするはず。 その“洗う”という行為を丁寧な癒しの時間に変えられたら、 日々の習慣であるバスタイムを活用できたらどんなにいいだろう… そんな思いから、今日一日頑張ったあなたをそっと解きほぐすシャンプーを開発しました。</p>
             </div>
           </div>
         </div>
@@ -79,12 +77,11 @@
 
 
   <main class="main" id="main">
-
+    <div class="sense_grad">
     <!-- SELF CARE（ここから背景が無地に切り替わる） -->
     <section class="selfcare" id="selfcare">
       <div class="container">
         <header class="section_head">
-          <p class="section_head_bg" aria-hidden="true">SELF CARE</p>
           <h2 class="section_head_title">あなたの美しさを育む時間とは？</h2>
         </header>
 
@@ -93,7 +90,7 @@
             <h3 class="selfcare_card_title">それは【五感】に刺激を与えること</h3>
             <div class="selfcare_card_rule" aria-hidden="true"></div>
             <p class="selfcare_card_text">人間は五感をバランスよく使うことが大切ですが、現代社会は視覚と聴覚で情報を処理することが多く、五感に偏りが生じています。五感のアンバランスな使い方は、脳を疲労させる原因の一つでストレスの耐久性をダウンさせてしまうのです。</p>
-            <p class="selfcare_card_text">人間の五感の中で原始的な「触覚」と「嗅覚」にアプローチすることで、五感のバランスは整いやすくなります。</p>
+            <p class="selfcare_card_text">人間の五感の中で原始的な<span>「触覚」と「嗅覚」にアプローチすること</span>で、五感のバランスは整いやすくなります。</p>
           </div>
 
           <div class="selfcare_card_media">
@@ -102,9 +99,9 @@
         </div>
 
         <div class="selfcare_lead">
-          <p class="selfcare_lead_top">シャンプー中に、たった10秒目を閉じてみてください</p>
+          <h2>シャンプー中に、たった10秒目を閉じてみてください</h2>
           <div class="selfcare_lead_rule" aria-hidden="true"></div>
-          <p class="selfcare_lead_bottom">五感を余すことなく刺激できます</p>
+          <h2>五感を余すことなく刺激できます</h2>
         </div>
       </div>
     </section>
@@ -118,14 +115,14 @@
               <p class="sense_en">TOUCH</p>
               <p class="sense_ja">触覚</p>
             </div>
-            <p class="sense_text">指の腹とモッチリ弾力泡で頭を撫でられているように心地いい。</p>
+            <p class="sense_text">指の腹とモッチリ弾力泡で頭を<br>撫でられているように心地いい。</p>
           </li>
           <li class="sense_item">
             <div class="sense_circle">
               <p class="sense_en">SMELL</p>
               <p class="sense_ja">嗅覚</p>
             </div>
-            <p class="sense_text">洗練された香りで脳から身体を解きほぐす</p>
+            <p class="sense_text">洗練された香りで<br>脳から身体を解きほぐす</p>
           </li>
           <li class="sense_item">
             <div class="sense_circle">
@@ -154,6 +151,7 @@
         </div>
       </div>
     </section>
+    </div>
 
     <!-- PRODUCT LINEUP -->
     <section class="lineup" id="lineup">
@@ -165,16 +163,20 @@
     </section>
 
     <!-- NEW MOON -->
-    <section class="product product_new">
+    <div class="arc_wrap">
+     <section class="product product_new arc_top">
       <div class="container">
         <p class="product_en">NEW MOON SHAMPOO</p>
         <h2 class="product_name">新月シャンプー</h2>
 
         <div class="product_img">
-          <img src="img/newmoon_PC.png" alt="" loading="lazy" />
+          <picture>
+            <source media="(max-width: 767px)" srcset="img/newmoon_SP.png">
+            <img src="img/newmoon_PC.png" alt="" loading="lazy" decoding="async" />
+          </picture>
         </div>
 
-        <p class="product_text">全てをリセット・浄化して、新たに満ちていく時。あらゆることを吸収し、アクティブになれるような栄養成分を配合。軽やかな泡でさっぱりとした洗い上がり。</p>
+        <p class="product_text">全てをリセット・浄化して、新たに満ちていく時。<br>あらゆることを吸収し、アクティブになれるような栄養成分を配合。<br>軽やかな泡でさっぱりとした洗い上がり。</p>
 
         <div class="box">
           <div class="box_head">
@@ -191,19 +193,27 @@
           </ul>
         </div>
         <div class="product_materials">
-          <img src="img/newmoon_materials_PC.png" alt="新月シャンプーのアロマと特徴的な成分" loading="lazy" decoding="async">
+          <picture>
+            <source media="(max-width: 767px)" srcset="img/newmoon_materials_SP.png">
+            <img src="img/newmoon_materials_PC.png" alt="新月シャンプーのアロマと特徴的な成分" loading="lazy" decoding="async">
+          </picture>
         </div>
       </div>
     </section>
+    </div>
 
     <!-- FULL MOON -->
-    <section class="product product_full">
+    <div class="arc_wrap">
+    <section class="product product_full arc_both arc_fullmoon">
       <div class="container">
         <p class="product_en">FULL MOON SHAMPOO</p>
         <h2 class="product_name">満月シャンプー</h2>
 
         <div class="product_img">
-          <img src="img/fullmoon_PC.png" alt="" loading="lazy" />
+          <picture>
+            <source media="(max-width: 767px)" srcset="img/fullmoon_SP.png">
+            <img src="img/fullmoon_PC.png" alt="" loading="lazy" decoding="async" />
+          </picture>
         </div>
 
         <ul class="product_tags" aria-label="満月シャンプーのキーワード">
@@ -234,14 +244,19 @@
           </ul>
         </div>
         <div class="product_materials">
-          <img src="img/newmoon_materials_PC.png" alt="新月シャンプーのアロマと特徴的な成分" loading="lazy" decoding="async">
+          <picture>
+            <source media="(max-width: 767px)" srcset="img/fullmoon_materials_SP.png">
+            <img src="img/newmoon_materials_PC.png" alt="満月シャンプーのアロマと特徴的な成分" loading="lazy" decoding="async">
+          </picture>
         </div>
         
       </div>
     </section>
+    </div>
 
     <!-- COMMON + COLUMN -->
-    <section class="common" aria-label="共通成分とコラム">
+    <div class="arc_wrap">
+    <section class="common arc_bottom" aria-label="共通成分とコラム">
       <div class="container">
         <div class="common_box">
           <p class="common_head">新月シャンプー・満月シャンプー共通成分</p>
@@ -268,8 +283,9 @@
         </div>
       </div>
     </section>
+    </div>
 
-    <!-- MOON HERO -->
+     <!-- MOON HERO -->
     <section class="moonhero" id="moon" aria-label="人と月の不思議な関係">
       <div class="moonhero_bg" aria-hidden="true"></div>
       <div class="container">
@@ -319,72 +335,82 @@
     </section>
 
     <!-- PRODUCT FEATURES -->
-    <section class="features" aria-label="プロダクトの特徴">
+    <div class="arc_wrap">
+    <section class="features arc_top" aria-label="プロダクトの特徴">
       <div class="container">
         <header class="features_head">
           <h2 class="features_title">PRODUCT FEATURES</h2>
-          <p class="features_sub">新月・満月シャンプーの特長</p>
-        </header>
+          <h2 class="features_sub">新月・満月シャンプーの特長</h2>
+       </header>
+      </div>
 
-        <div class="features_list">
-          <!-- 1 -->
-          <article class="feature_row">
-            <div class="feature_body">
+      <div class="features_list">
+        <!-- 1 -->
+        <article class="feature_row">
+          <div class="feature_body">
+            <div class="feature_body_inner">
               <h3 class="feature_title">まるで美容液<br>髪1本1本が輝きだす</h3>
               <p class="feature_text">まるで美容液のような濃密なうるおいが髪の芯まで満ちていき、1本1本が光をまとったように輝き出す。<br>触れるたびにしなやかさが返ってくる、上質な仕上がりへ導きます。</p>
             </div>
-            <div class="feature_media">
-              <img class="feature_img" src="img/feature_01.jpg" alt="" loading="lazy" decoding="async" />
-            </div>
-          </article>
-
-          <!-- 2 (reverse) -->
-          <article class="feature_row feature_row--reverse">
-            <div class="feature_body">
+          </div>
+          <div class="feature_media">
+            <img class="feature_img" src="img/feature_01.jpg" alt="" loading="lazy" decoding="async" />
+          </div>
+        </article>
+        <!-- 2 (reverse) -->
+        <article class="feature_row feature_row--reverse">
+          <div class="feature_body">
+            <div class="feature_body_inner">
               <h3 class="feature_title">負担は最小限に。<br>クレンジングはしっかりと。</h3>
               <p class="feature_text">50以上の試作品を作り、約300人以上のプロフェッショナルが<br>
   試して完成したサロンクオリティ。汚れをやさしく包みこんで<br>分解しながら、地肌<sup class="note_mark">※</sup>に栄養成分をチャージ。</p>
               <p class="note">※角質層</p>
             </div>
-            <div class="feature_media">
-              <img class="feature_img" src="img/feature_02.jpg" alt="" loading="lazy" decoding="async" />
-            </div>
-          </article>
+          </div>
+          <div class="feature_media">
+            <img class="feature_img" src="img/feature_02.jpg" alt="" loading="lazy" decoding="async" />
+          </div>
+        </article>
 
-          <!-- 3 -->
-          <article class="feature_row">
-            <div class="feature_body">
-              <h3 class="feature_title">驚くほどモッチリとした弾力泡</h3>
-              <p class="feature_text">加圧処理によって不純物を取り除いた「純水」を使用。<br>
-                 澄んだ水から作られているから、余分なものが含まれておらず驚くほど泡がモッチリ。金属系の物質が少なく、洗い上がりは毛先までトゥルンとなめらか。<br>
-                 水の分子の性質上、成分が溶け込みやすく浸透性も◎。</p>
-            </div>
-            <div class="feature_media">
-              <img class="feature_img" src="img/feature_03.jpg" alt="" loading="lazy" decoding="async" />
-            </div>
-          </article>
+            <!-- 3 -->
+            <article class="feature_row">
+              <div class="feature_body">
+                <div class="feature_body_inner">
+                  <h3 class="feature_title">驚くほどモッチリとした弾力泡</h3>
+                  <p class="feature_text">加圧処理によって不純物を取り除いた「純水」を使用。<br>
+                     澄んだ水から作られているから、余分なものが含まれておらず驚くほど泡がモッチリ。金属系の物質が少なく、洗い上がりは毛先までトゥルンとなめらか。<br>
+                     水の分子の性質上、成分が溶け込みやすく浸透性も◎。</p>
+                </div>
+              </div>
+              <div class="feature_media">
+                <img class="feature_img" src="img/feature_03.jpg" alt="" loading="lazy" decoding="async" />
+              </div>
+            </article>
 
-          <!-- 4 (reverse) -->
-          <article class="feature_row feature_row--reverse">
-            <div class="feature_body">
-              <h3 class="feature_title">人体への刺激は「ほぼ0」</h3>
-              <p class="feature_text">本品のベースである『ジャムレーベルシャンプー』は、
+            <!-- 4 (reverse) -->
+            <article class="feature_row feature_row--reverse">
+              <div class="feature_body">
+                <div class="feature_body_inner">
+                  <h3 class="feature_title">人体への刺激は「ほぼ0」</h3>
+                  <p class="feature_text">本品のベースである『ジャムレーベルシャンプー』は、
   アメリカの医学博士、公認皮膚科専門医を要する専門機関で、白人、黒人、黄色人種に連続
   刺激によるアレルギーテストRIPT（皮膚への累積刺激及び感作性 試験）を行い、
   全てにおいて「刺激度0」という人体への優しさと信頼性を証明しました。<sup class="note_mark">※</sup>敏感肌・トラブル肌の方にもおすすめ
   できる、マイルドな使用感です。</p>
-              <p class="note">※全ての方にアレルギー反応がおこらないということではありません。</p>
-            </div>
-            <div class="feature_media">
-              <img class="feature_img" src="img/feature_04.jpg" alt="" loading="lazy" decoding="async" />
-            </div>
-          </article>
-        </div>
+                  <p class="note">※全ての方にアレルギー反応がおこらないということではありません。</p>
+                </div>
+              </div>
+              <div class="feature_media">
+                <img class="feature_img" src="img/feature_04.jpg" alt="" loading="lazy" decoding="async" />
+              </div>
+            </article>
       </div>
     </section>
+    </div>
 
     <!-- HOW TO USE -->
-    <section class="howto" id="howto" aria-label="新月・満月シャンプーの使い方">
+    <div class="arc_wrap">
+    <section class="howto arc_bottom" id="howto" aria-label="新月・満月シャンプーの使い方">
       <div class="container">
         <header class="howto_head">
           <h2 class="howto_title">HOW TO USE</h2>
@@ -395,10 +421,14 @@
         <p class="howto_text">たった10秒でも構いません。シャンプーの時は何もせずに、目を閉じて深呼吸をしながら、<br>もっちりとした泡の弾力、指の腹の心地よさ、特別なアロマを全身に。</p>
 
         <div class="howto_panel" aria-label="使い方ステップ（画像）">
-          <img src="img/howto_PC.png" alt="シャンプーの使い方4ステップ" loading="lazy" decoding="async" />
+          <picture>
+            <source media="(max-width: 767px)" srcset="img/howto_SP.png">
+            <img src="img/howto_PC.png" alt="シャンプーの使い方4ステップ" loading="lazy" decoding="async" />
+          </picture>
         </div>
       </div>
     </section>
+    </div>
 
     <!-- TIME FOR YOURSELF (background image + curved cut) -->
     <section class="time" aria-label="自分と向き合う大切な時間">
@@ -421,7 +451,8 @@
     </section>
 
     <!-- FAQ -->
-    <section class="faq" id="faq" aria-label="よくある質問">
+    <div class="arc_wrap">
+    <section class="faq arc_top" id="faq" aria-label="よくある質問">
       <div class="container">
         <header class="faq_head">
           <h2 class="faq_title">FAQ</h2>
@@ -486,11 +517,14 @@
         </div>
       </div>
     </section>
+    </div>
 
     <!-- Bottom visual (main end image) -->
     <section class="bottom_visual" aria-label="ご購入はこちらから">
+      <a href="#">ご購入はこちらから</a>
       <img class="bottom_visual_img" src="img/bottom_visual.jpg" alt="ご購入はこちらから" loading="lazy" decoding="async" />
     </section>
+
 
     <footer class="site_footer" aria-label="フッター">
       <div class="container site_footer_inner">
@@ -528,8 +562,29 @@
   if(btn && nav){
     btn.addEventListener('click', function(){
       var expanded = btn.getAttribute('aria-expanded') === 'true';
-      btn.setAttribute('aria-expanded', String(!expanded));
+      var next = !expanded;
+      btn.setAttribute('aria-expanded', String(next));
       nav.classList.toggle('is_open');
+      document.body.classList.toggle('is_nav_open', next);
+    });
+
+    // 背景（オーバーレイ）クリックで閉じる
+    document.addEventListener('click', function(e){
+      if(!document.body.classList.contains('is_nav_open')) return;
+      // nav内とボタン以外をクリックしたら閉じる
+      if(nav.contains(e.target) || btn.contains(e.target)) return;
+      btn.setAttribute('aria-expanded', 'false');
+      nav.classList.remove('is_open');
+      document.body.classList.remove('is_nav_open');
+    });
+
+    // ESCで閉じる
+    document.addEventListener('keydown', function(e){
+      if(e.key !== 'Escape') return;
+      if(!document.body.classList.contains('is_nav_open')) return;
+      btn.setAttribute('aria-expanded', 'false');
+      nav.classList.remove('is_open');
+      document.body.classList.remove('is_nav_open');
     });
   }
 
